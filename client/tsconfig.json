@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/client",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowJs": false,
+    "newLine": "LF",
+    "types": [
+      "@altv/types-client",
+      "@altv/types-natives"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDirs": [
+      "src",
+    ],
+    "baseUrl": "src",
+    "incremental": true
+  }
+}
